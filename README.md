@@ -18,3 +18,11 @@ config DHT20
 ```
 obj-$(CONFIG_DHT20) += dht20.o
 ```
+4. Configure Deviec Tree to include sensor description under the correct I2C device
+```
+dht20@38 {
+	compatible = "asair,dht20";
+	reg = <0x38>;
+};	
+```
+5. Sensor will appear as an IIO device
