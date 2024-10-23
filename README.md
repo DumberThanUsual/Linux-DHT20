@@ -15,6 +15,6 @@ config DHT20
 	  be called dht20.
 ```
 3. Add Makefile config
-   ```
+```
 obj-$(CONFIG_DHT20) += dht20.o
-   ```
+```
