@@ -1,4 +1,4 @@
-# Linux Device Driver for DHT20 Temperature and Humidity Sensor
+# Linux IIO Device Driver for DHT20 Temperature and Humidity Sensor
 
 ## Usage
 1. Place source file in kernel source at drivers/iio/temperature/
